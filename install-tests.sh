@@ -6,7 +6,7 @@ touch tests/vendor/__init__.py
 
 # geoip
 mkdir -p tests/vendor/geoip
-wget --quiet -O- http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz | gunzip > tests/vendor/geoip/GeoLite2-Country.mmdb
+wget --quiet -O- GeoLite2-Country.mmdb
 
 # privacyscanner
 git clone https://github.com/PrivacyScore/privacyscanner.git
